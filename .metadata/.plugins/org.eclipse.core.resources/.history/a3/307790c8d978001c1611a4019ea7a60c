@@ -1,0 +1,17 @@
+package com.design;
+
+public class CarTyre implements Tyre {
+
+	@Override
+	public void design() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void manufacturing() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

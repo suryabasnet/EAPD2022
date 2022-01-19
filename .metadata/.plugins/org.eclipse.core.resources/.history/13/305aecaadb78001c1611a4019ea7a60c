@@ -1,0 +1,19 @@
+package com.design;
+
+public abstract class Factory {
+	public static Factory carFactory=null;
+	public static Factory truckFactory=null;
+	
+	public abstract Engine getEngine();
+	public abstract Tyre getTyre();
+	
+	
+	public static Factory getFactory(String vehicleType) throws UnknownVehicleTypeException {
+		
+		if(vehicleType==null) {
+			return null;
+		}
+	}
+	
+
+}
